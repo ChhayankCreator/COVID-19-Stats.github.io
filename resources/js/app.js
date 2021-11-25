@@ -76,7 +76,7 @@ function fetchData(country) {
             });
 
         await fetch(
-                "https://api.covid19api.com/total/country/" + country + "/status/deaths/recovered",
+                "https://api.covid19api.com/total/country/" + country + "/status/deaths",
                 requestOptions
             )
             .then((res) => {
